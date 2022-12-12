@@ -47,6 +47,14 @@ namespace Making_a_Name_Class
             get { return _firstName.Substring(0, 1) + _lastName.Substring(0, 1); }
         }
 
+        public string UserName
+        {
+            get
+            {
+                return _firstName.Substring(0, 3) + _lastName.Substring(0, 3);
+            }
+        }
+
         public override string ToString() { 
             return (_title + " " + _firstName + " " + _lastName).Trim(); 
         }

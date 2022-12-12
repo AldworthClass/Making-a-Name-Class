@@ -16,7 +16,8 @@ namespace Making_a_Name_Class
             Console.WriteLine(beatle);
             Console.WriteLine(beatle.Initials);
             student = new Name("Jane", "Doe");
-            Console.WriteLine(student);
+            Console.WriteLine($"{student}, your username is: {student.UserName}");
+           
         }
     }
 }
